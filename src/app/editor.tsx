@@ -95,7 +95,7 @@ export default function ConstructorScreen() {
   return (
     <SafeAreaView style={styles.container}>
       {/* Кнопка НАЗАД в меню */}
-      <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
+      <TouchableOpacity style={styles.backButton} onPress={() => router.replace('/')}>
         <Text style={styles.backButtonText}>← Меню</Text>
       </TouchableOpacity>
 
